@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>To-Do-List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-Do list <img src="images/icon.png "></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your List">
+                <button type="button" onclick="addTask()" >Add</button>
+            </div>
+            <button id="clear-all">Clear All</button>
+            <p id="task-count"></p>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+        <div class="signature">
+            <p>#Developed by Mahmoud ayman</p>
+        </div>
+    </div>
+    <script src="node.js"></script>
+</body>
+
+</html>
